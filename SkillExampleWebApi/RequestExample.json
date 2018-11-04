@@ -1,0 +1,32 @@
+﻿{
+  "SessionId": "random GUID",
+  "UserId": "test@user.com",
+  "AgentId": "fake-agent",
+  "Language": "en-US",
+  "TimezoneOffset": 2.0,
+  "Intent": {
+    "Action": "test.action",
+    "Response": "Hello! this is a response from Webhook!",
+    "Name": "intent.name",
+    "Parameters": [
+      {
+        "Name": "sys.cities",
+        "Type": "@sys.any",
+        "Value": "tel aviv,israel",
+        "FormattedValue": "Tel Aviv, Israel"
+      }
+    ]
+  },
+  "CustomValues": [
+    {
+      "Key": "example.key",
+      "Value": "example.value"
+    }
+  ],
+  "Extra": [
+    {
+      "Key": "example.key",
+      "Value": "example.value"
+    }
+  ]
+}
